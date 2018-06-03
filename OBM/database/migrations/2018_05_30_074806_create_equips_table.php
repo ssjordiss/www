@@ -17,8 +17,11 @@ class CreateEquipsTable extends Migration
             $table->increments('id');
             $table->string('nombre',20);
             $table->decimal('cuenta',28,2);
-            $table->integer('id_usuario')->unsigned();
+            $table->string('img')->default('/images/default.png');
+            $table->integer('id_usuario')->nullable()->unsigned();
+            $table->integer('id_liga')->unsigned();
             $table->foreign('id_usuario')->references('id')->on('users');
+            $table->foreign('id_liga')->references('id')->on('ligas');
             $table->timestamps();
         });
     }

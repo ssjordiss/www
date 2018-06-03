@@ -16,6 +16,7 @@ class CreateLliguesTable extends Migration
         Schema::create('ligas', function (Blueprint $table) {
             $table->increments('id');
             $table->string('nombre',20);
+            $table->integer('status')->default(1);
             $table->timestamps();
         });
     }

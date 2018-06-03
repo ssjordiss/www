@@ -63,7 +63,7 @@ a, a:visited {
   color: #FF530D; }
 
 a:hover, a:focus, a:active {
-  color: #6365d2;
+  color: #FF7116;
   text-decoration: none; }
 
 .nav-pills .nav-item.show .nav-link, .nav-pills .nav-link.active {
@@ -158,8 +158,8 @@ code {
   border-color: #FF530D !important; }
 
 .btn-primary:hover, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
-  background-color: #6365d2 !important;
-  border-color: #6365d2 !important; }
+  background-color: #FF7116 !important;
+  border-color: #FF7116 !important; }
 
 .btn-outline-primary {
   color: #FF530D !important;
@@ -169,7 +169,7 @@ code {
   color: #FF530D !important; }
 
 .btn-link:focus, .btn-link:hover, .page-link:focus, .page-link:hover, a.text-primary:focus, a.text-primary:hover {
-  color: #6365d2 !important; }
+  color: #FF7116 !important; }
 
 .dropdown-item.active, .dropdown-item:active, .custom-control-input:checked ~ .custom-control-indicator, .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-indicator, .nav-pills .nav-item.show .nav-link, .badge-primary, .progress-bar, .bg-primary {
   background-color: #FF530D !important;
@@ -184,7 +184,7 @@ code {
   border-radius: 499px; }
 
 .nav-pills .nav-link.active, .badge-primary[href]:focus, .badge-primary[href]:hover, a.bg-primary:focus, a.bg-primary:hover {
-  background-color: #6365d2 !important; }
+  background-color: #FF7116 !important; }
 
 .form-control:focus {
   border-color: #FF530D !important; }
@@ -195,8 +195,8 @@ code {
   border-color: #FF530D; }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #6365d2;
-  border-color: #6365d2; }
+  background-color: #FF7116;
+  border-color: #FF7116; }
 
 .btn-outline-primary, .btn-outline-primary:visited {
   color: #FF530D;
@@ -375,7 +375,7 @@ code {
     background: rgba(0, 0, 0, 0.5) !important;
     color: #ffffff !important; }
   .sidebar .nav ul.children li a:hover {
-    background: #6365d2 !important;
+    background: #FF7116 !important;
     color: #ffffff !important; }
 
 #wrapper.toggled .sidebar-nav {
@@ -387,7 +387,7 @@ code {
   right: 1rem; }
 
 .sidebar a:focus, .sidebar a:hover, .sidebar a:active {
-  background-color: #6365d2 !important; }
+  background-color: #FF7116 !important; }
 
 @media screen and (max-width: 576px) {
   #wrapper .sidebar-nav {
@@ -402,7 +402,7 @@ code {
     margin-bottom: 1rem; }
 
   #menu-toggle {
-    background-color: #6365d2; } }
+    background-color: #FF7116; } }
 @media screen and (min-width: 576px) {
   #wrapper.toggled .sidebar-nav {
     display: block; }
