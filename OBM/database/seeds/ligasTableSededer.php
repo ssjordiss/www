@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use App\liga;
+use App\ligaprincipal;
 class ligasTableSededer extends Seeder
 {
     /**
@@ -11,7 +11,7 @@ class ligasTableSededer extends Seeder
      */
     public function run()
     {
-        liga::create([
+        ligaprincipal::create([
           'nombre'=>'NBA',
         ]);
     }

@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use App\equipo;
+use App\equipoprincipal;
 class equiposTableSeeder extends Seeder
 {
     /**
@@ -11,13 +11,12 @@ class equiposTableSeeder extends Seeder
      */
     public function run()
     {
-        equipo::create([
+        equipoprincipal::create([
           'nombre'=>'Miami Heat',
           'cuenta'=>131397624,
           'id_liga'=>1,
-          'id_usuario'=>1,
         ]);
-        equipo::create([
+        equipoprincipal::create([
           'nombre'=>'Washington Wizards',
           'cuenta'=>124613393,
           'id_liga'=>1,

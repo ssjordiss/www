@@ -40,7 +40,7 @@ class HomeController extends Controller
         LEFT JOIN equipos AS e
         ON u.id=e.id_usuario
         and l.id=e.id_liga
-        WHERE u.id=1');
+        WHERE u.id='.$id);
       return view('carrera',['carrera'=>$carrera]);
     }
 }

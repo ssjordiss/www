@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateLliguesTable extends Migration
+class CreateLigaprincipalsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,9 @@ class CreateLliguesTable extends Migration
      */
     public function up()
     {
-        Schema::create('ligas', function (Blueprint $table) {
+        Schema::create('ligaprincipals', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('status')->default(1);
-            $table->integer('id_liga')->nullable()->unsigned();
-            $table->foreign('id_liga')->references('id')->on('ligaprincipals');
+            $table->string('nombre',20);
             $table->timestamps();
         });
     }
@@ -29,6 +27,6 @@ class CreateLliguesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('ligas');
+        Schema::dropIfExists('ligaprincipals');
     }
 }

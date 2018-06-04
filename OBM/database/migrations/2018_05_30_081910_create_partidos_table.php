@@ -17,6 +17,9 @@ class CreatePartidosTable extends Migration
             $table->increments('id');
             $table->integer('id_equipo1')->unsigned();
             $table->integer('id_equipo2')->unsigned();
+            $table->integer('puntos1')->unsigned();
+            $table->integer('puntos2')->unsigned();
+            $table->integer('partida')->unsigned();
             $table->foreign('id_equipo1')->references('id')->on('equipos');
             $table->foreign('id_equipo2')->references('id')->on('equipos');
             $table->timestamps();
