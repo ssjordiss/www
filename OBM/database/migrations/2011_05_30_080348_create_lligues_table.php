@@ -16,6 +16,7 @@ class CreateLliguesTable extends Migration
         Schema::create('ligas', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('status')->default(1);
+            $table->integer('jornada')->default(0);
             $table->integer('id_liga')->nullable()->unsigned();
             $table->foreign('id_liga')->references('id')->on('ligaprincipals');
             $table->timestamps();

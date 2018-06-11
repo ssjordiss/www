@@ -16,5 +16,7 @@ Route::get('/', function () {
 });
 
 Auth::routes();
-Route::get('/carrera','HomeController@carrera')->name('carrera');
+
+Route::resource('/carrera','carreraController');
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/carrera','carreraController@index')->name('carrera');
